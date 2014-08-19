@@ -1,0 +1,171 @@
+/* 
+	http://www.[dominiodoprojeto].com.br 
+   	Author: Victor F Simão
+   	Web: vfsimao.com
+
+   	References:
+   	1-Support Browsers - http://caniuse.com/ 
+   	2-Syntaxes CSS ----- https://developer.mozilla.org/en-US/docs/Web/CSS/Reference 
+   	3-Viewport Sizes --- http://www.viewportsizes.com
+   	4-Syntaxes Ordered - http://pedronauck.com/frontend-styleguide/css/
+
+   	Sumary:
+   	- Fonts & Icons;
+   	- ERIC Meyer RESET;
+   	- Global Elements;
+   	- Grid System;
+   	- Navbar;
+   	- Content;
+   	- Footer;
+   	- Custom Texts;
+   	- Custom Pages;
+   	- Images;
+   	- Forms;
+   	- Custom Icons;
+   	- Another Elements;
+   	- Media Queries.
+*/
+
+/* ----------------------------------------------------------------- */
+/* =========================== FONTS / ICONS ======================= */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* ====================== ERIC MEYER - CSS RESET =================== */
+/* ----------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------------------------------------------------------------- */
+/* ========================== GLOBAL ELEMENTS ====================== */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* ============================ GRID SYSTEM ======================== */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* =============================== NAVBAR ========================== */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* =============================== CONTENT ========================= */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* =============================== FOOTER ========================== */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* ============================ CUSTOM TEXTS ======================= */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* ============================ CUSTOM PAGES ======================= */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* =============================== IMAGES ========================== */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* =============================== FORMS =========================== */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* ============================ CUSTOM ICONS ======================= */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* ========================= ANOTHER ELEMENTS ====================== */
+/* ----------------------------------------------------------------- */
+
+
+
+/* ----------------------------------------------------------------- */
+/* =========================== MÉDIA QUERIES ======================= */
+/* ----------------------------------------------------------------- */
+
+// Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { } 
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { } 
+/* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } 
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { } 
+/* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } 
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
